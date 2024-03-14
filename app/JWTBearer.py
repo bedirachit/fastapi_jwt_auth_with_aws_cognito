@@ -11,6 +11,7 @@ from starlette.status import HTTP_403_FORBIDDEN
 JWK = Dict[str, str]
 
 
+
 class JWKS(BaseModel):
     keys: List[JWK]
 
